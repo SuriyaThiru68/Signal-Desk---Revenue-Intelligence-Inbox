@@ -9,7 +9,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 .pnpm-store/
-package-lock.json
+# Note: package-lock.json is intentionally tracked for reproducible Render deploys
 
 # ----- Vite build output -----
 dist/

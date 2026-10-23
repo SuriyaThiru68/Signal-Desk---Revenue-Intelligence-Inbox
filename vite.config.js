@@ -5,9 +5,12 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 5173,
-    open: false
+    host: "0.0.0.0",
+    open: false,
   },
   preview: {
-    port: 4173
-  }
+    // Render injects $PORT at runtime; fall back to 4173 locally
+    port: parseInt(process.env.PORT) || 4173,
+    host: "0.0.0.0",
+  },
 });

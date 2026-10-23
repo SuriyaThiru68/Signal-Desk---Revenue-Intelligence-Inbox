@@ -42,12 +42,32 @@ Or open `index.html` directly in any browser — no build step needed for the st
 ```bash
 npm run build            # Production build → dist/
 npm run preview          # Preview the production build on port 4173
+npm run start            # Same as preview — used by Render in production
 npm run validate:data    # Validates all 18 analyses and 89 evidence quotes
 npm run generate:exports # Rewrites exports/, exports-replay-demo/ and both ZIPs
 npm run sync:data        # Syncs data sources
 ```
 
 State is persisted in `localStorage` under `signal-desk-state-v1`. A hard refresh does not clear it. Use **Imports & replay → Reset to empty state** to start clean.
+
+---
+
+## Deploy to Render
+
+The repo includes a `render.yaml` that auto-configures the service. For a manual setup use these exact values:
+
+| Field | Value |
+|---|---|
+| **Language** | Node |
+| **Branch** | `main` |
+| **Region** | Singapore (Southeast Asia) |
+| **Build Command** | `npm install && npm run build` |
+| **Start Command** | `npm run start` |
+| **Plan** | Starter — $7 / mo (0.5 CPU, 512 MB RAM) |
+
+**Environment variables** — no secrets required. Render injects `PORT` automatically; the `vite preview` server reads it via `process.env.PORT`.
+
+> Render free-tier (`$0`) hibernates after 15 min of inactivity, which causes a slow first load. The $7 Starter plan stays live.
 
 ---
 

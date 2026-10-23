@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: Signal-Desk---Revenue-Intelligence-Inbox
+    runtime: node
+    region: singapore
+    plan: starter          # $7/mo — 0.5 CPU, 512 MB RAM
+    branch: main
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: NODE_ENV
+        value: production
