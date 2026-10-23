@@ -1,0 +1,74 @@
+# ============================================================
+# Signal Desk — .gitignore
+# ============================================================
+
+# ----- Node / npm -----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json
+
+# ----- Vite build output -----
+dist/
+dist-ssr/
+*.local
+
+# ----- Environment variables -----
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ----- OS / editor artifacts -----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ----- IDEs & editors -----
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*~
+
+# ----- Kiro IDE -----
+.kiro/
+
+# ----- Logs -----
+logs/
+*.log
+
+# ----- Test / coverage -----
+coverage/
+.nyc_output/
+
+# ----- Temporary files -----
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# ----- ZIP snapshots (generated — commit only if intentional) -----
+# Uncomment the lines below to exclude generated ZIPs from git
+# exports.zip
+# exports-replay-demo.zip
+
+# ----- Generated export folders (large, reproducible via script) -----
+# Uncomment to exclude — regenerate with: npm run generate:exports
+# exports/
+# exports-replay-demo/

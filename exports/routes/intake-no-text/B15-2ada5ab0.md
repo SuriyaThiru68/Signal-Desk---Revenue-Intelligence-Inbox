@@ -1,0 +1,20 @@
+# Intake / no text — B15
+
+> **Shared context:** [B15 canonical record](../../records/B15-2ada5ab0.md). This route file is one destination for the same source record; it does not create a second record.
+
+- **Destination folder:** `intake-no-text`
+- **Source type:** call
+- **Source ID:** `2ada5ab0-8a84-54b7-a071-cd5bd6ad5abd`
+- **Applied source revision:** 1
+- **Route decision:** Automated suggestion
+- **Review state:** no_text
+
+## Why this route
+
+No usable supplied text. This record is held for intake / capture review rather than substantive analysis.
+
+## Intake note
+
+No call transcript was supplied in this package. The stored outcome is source metadata, not a conversation.
+
+No substantive analysis is stored for this destination. Do not infer a conversation from missing text.

@@ -1,0 +1,1073 @@
+{
+  "2ec4404c-beee-5377-a63c-aab701da08ed": {
+    "ref": "C01",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "high",
+    "headline": "Cold outreach rejected at first contact; the contact source became the issue",
+    "summary": "Arun introduced SpendNest to Pranav at Harborlight Advisory. Pranav challenged how the number had been obtained and said the firm's processes were already highly automated. The conversation ended without a stated need, next step or buying role.",
+    "whyItMatters": "This is an explicit no, not a live opportunity. The useful output is a close note plus coaching on consent, relevance and list quality. Logging this as pipeline would inflate activity and hide the source-quality problem.",
+    "suggestedRoutes": ["no_opportunity", "sales_coaching"],
+    "routeReasons": {
+      "no_opportunity": "The prospect said they did not ask for the call and were not interested; no need or next step was established.",
+      "sales_coaching": "The objection was about how the contact was sourced and whether the call was welcome, which is coachable before the product pitch."
+    },
+    "evidence": [
+      {
+        "quote": "I don't know how I ended up on your list. I didn't ask for this call, and I'm not interested.",
+        "note": "Explicit rejection and consent objection."
+      },
+      {
+        "quote": "Our processes are already very automated.",
+        "note": "Stated reason the product was not relevant."
+      },
+      {
+        "quote": "Through a professional networking outreach programme; that's how we obtained the contact information.",
+        "note": "The rep disclosed the source when challenged; this is the point to coach."
+      }
+    ],
+    "notEstablished": [
+      "No confirmed buying role, budget, company size or product gap.",
+      "The prospect's 'already automated' statement is a claim, not independently verified.",
+      "Do not convert the call into a deal or assign a pipeline value."
+    ],
+    "nextSteps": [
+      {
+        "action": "Record the contact as not interested and review the source list before any further outreach.",
+        "owner": "Unassigned — owner not stated",
+        "ownerBasis": "No internal owner was named."
+      },
+      {
+        "action": "Coach the opening to confirm relevance and consent before pitching; close promptly if the list source is the objection.",
+        "owner": "Arun (caller)",
+        "ownerBasis": "Caller identity is in the source record."
+      }
+    ],
+    "coaching": [
+      "Open with why this specific person and company were selected, not only who is calling.",
+      "When consent is challenged, stop the pitch and resolve the source question first.",
+      "An 'already automated' claim is a signal to ask a narrow gap question or close, not to keep describing features."
+    ]
+  },
+  "4b870624-8aad-5315-a60e-0db95981cf99": {
+    "ref": "C02",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "high",
+    "headline": "Named contact unavailable; gatekeeper offered a voicemail route",
+    "summary": "Arun called Fernhaven Group asking for Leela. Kavya confirmed Leela was out of the office and offered either a message or voicemail. Arun chose voicemail and the call ended. There was no product discussion.",
+    "whyItMatters": "This is a contact attempt, not a substantive sales conversation. The source-reported connected flag is true, but the text shows no product need. Keep it as a follow-up attempt without claiming engagement or opportunity.",
+    "suggestedRoutes": ["deal_follow_up", "sales_coaching"],
+    "routeReasons": {
+      "deal_follow_up": "A named contact was pursued and a voicemail route was used; the next action is a follow-up attempt, not a deal conclusion.",
+      "sales_coaching": "The gatekeeper exchange is a short example of keeping the request specific and choosing a clear message path."
+    },
+    "evidence": [
+      {
+        "quote": "It looks as though she isn't in the office today. Would you like to leave a message with me, or would you prefer her voicemail?",
+        "note": "Gatekeeper offered two options."
+      },
+      {
+        "quote": "Her voicemail would be fine, thank you.",
+        "note": "The rep chose voicemail; no message content was supplied."
+      }
+    ],
+    "notEstablished": [
+      "No product need, budget, authority or timeline was discussed.",
+      "A connected call is not evidence of a substantive conversation; is_conversation is false in the source.",
+      "The voicemail content is not supplied, so its relevance cannot be assessed."
+    ],
+    "nextSteps": [
+      {
+        "action": "Log the attempt and schedule a follow-up to Leela; do not score this as engagement.",
+        "owner": "Arun (caller)",
+        "ownerBasis": "Caller identity is in the source record."
+      }
+    ],
+    "coaching": [
+      "When the named contact is unavailable, decide whether a message would be more useful than a voicemail and keep the ask concrete.",
+      "Do not treat a gatekeeper conversation as a qualified sales conversation."
+    ]
+  },
+  "20d509ba-d589-5334-9aef-ea4ce6105b1a": {
+    "ref": "C03",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "medium",
+    "headline": "API follow-up survives poor audio, but interest is explicitly non-essential",
+    "summary": "Kiran followed up with Milan about developer API access. The audio was poor and Milan could not remember the earlier conversation clearly. Milan said developer functionality was not essential enough to spend much on, but agreed to an email and a Monday or Tuesday call.",
+    "whyItMatters": "There is a concrete next step, but the need is weak and price-sensitive. The team should send a tightly scoped email rather than treat the callback as buying intent.",
+    "suggestedRoutes": ["deal_follow_up", "sales_coaching"],
+    "routeReasons": {
+      "deal_follow_up": "A specific email and Monday/Tuesday callback were agreed.",
+      "sales_coaching": "Audio problems and a vague recollection made qualification harder; the rep recovered with a concrete follow-up."
+    },
+    "evidence": [
+      {
+        "quote": "We did ask about some developer functionality, but it isn't essential enough for us to spend much on it.",
+        "note": "Need is explicitly low priority and price-sensitive."
+      },
+      {
+        "quote": "Send the email and we can speak Monday or Tuesday.",
+        "note": "Specific next step was agreed."
+      },
+      {
+        "quote": "I'm calling about the API access your development team was considering.",
+        "note": "The rep anchored the call to the prior topic."
+      }
+    ],
+    "notEstablished": [
+      "No budget, decision process, technical requirements or volume were supplied.",
+      "The earlier conversation and the five-week follow-up are referenced but not present in this extract.",
+      "A Monday/Tuesday callback is not a commitment to buy."
+    ],
+    "nextSteps": [
+      {
+        "action": "Send the promised email using a clear subject line, restate the low-commitment API scope and confirm the Monday/Tuesday call.",
+        "owner": "Kiran (caller)",
+        "ownerBasis": "“I'll send it over” in the call."
+      }
+    ],
+    "coaching": [
+      "When audio fails, agree to a channel switch quickly and send a short written recap.",
+      "For a non-essential need, qualify the cost of doing nothing before preparing a detailed proposal."
+    ]
+  },
+  "bcdcbf56-d338-5c78-9a97-42c2fc1c9931": {
+    "ref": "C04",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "high",
+    "headline": "Voicemail follow-up after an email-address correction",
+    "summary": "Arun left a voicemail for Ritesh about Lanternpath Media's consideration of the expense platform. He noted that information first went to the wrong email address, that a corrected address was used, and asked for a callback with the current status.",
+    "whyItMatters": "This is a one-way follow-up attempt. It documents a corrected email path and a request for a decision update, but it provides no customer response or evidence of interest.",
+    "suggestedRoutes": ["deal_follow_up"],
+    "routeReasons": {
+      "deal_follow_up": "An existing consideration process was referenced and a callback was requested; the record is a follow-up attempt with no live conversation."
+    },
+    "evidence": [
+      {
+        "quote": "My understanding is that our information first went to the wrong email address.",
+        "note": "The delivery problem is acknowledged."
+      },
+      {
+        "quote": "Please call me back to let me know where things stand.",
+        "note": "The ask is a status update, not a new commitment."
+      }
+    ],
+    "notEstablished": [
+      "No live response from Ritesh is supplied.",
+      "No decision, timeline, budget or product fit is established.",
+      "The source marks the call as not connected and not a conversation; do not count it as engagement."
+    ],
+    "nextSteps": [
+      {
+        "action": "Wait for the callback and verify that the corrected email was received; do not send another message without a reason.",
+        "owner": "Arun (caller)",
+        "ownerBasis": "Caller identity is in the source record."
+      }
+    ],
+    "coaching": [
+      "Voicemail is evidence of an attempt, not a conversation. Keep that distinction visible in activity metrics."
+    ]
+  },
+  "75a6b94f-7717-5cfb-9e41-0acc94415e17": {
+    "ref": "C05",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "high",
+    "headline": "Feature pitch met an existing stack; only a deck was requested",
+    "summary": "Meera made an introductory call to a multi-store retailer. The prospect repeatedly said the described capabilities were already in place, then asked for a presentation and said a change of providers could be considered later. No follow-up meeting was agreed.",
+    "whyItMatters": "The conversation produced a deck request but no stated gap. This is weak interest and a coaching opportunity: the rep described product categories after the prospect had already said they had them.",
+    "suggestedRoutes": ["deal_follow_up", "sales_coaching"],
+    "routeReasons": {
+      "deal_follow_up": "A presentation was requested, so a low-intensity follow-up is supported.",
+      "sales_coaching": "The rep continued a feature pitch after repeated 'we have that' signals and did not uncover a gap."
+    },
+    "evidence": [
+      {
+        "quote": "We already have that.",
+        "note": "Repeated existing-capability objection."
+      },
+      {
+        "quote": "If we ever decide to change the providers we already have, we could consider it then.",
+        "note": "Conditional, future interest only."
+      },
+      {
+        "quote": "What exactly is the product?",
+        "note": "The prospect still needed the basic category explained mid-call."
+      }
+    ],
+    "notEstablished": [
+      "No current pain, gap, budget or decision process was identified.",
+      "The prospect did not agree to a meeting or a follow-up date.",
+      "A deck request is not a qualified opportunity."
+    ],
+    "nextSteps": [
+      {
+        "action": "Send the presentation as requested, tailored to the store-expense use case, and do not schedule a chase until there is a signal of change.",
+        "owner": "Meera (caller)",
+        "ownerBasis": "Caller identity and commitment to send the presentation are in the record."
+      }
+    ],
+    "coaching": [
+      "After the first 'we already have that', stop the feature list and ask what breaks or what the current setup cannot do.",
+      "A presentation request can close a cold call politely without creating pipeline."
+    ]
+  },
+  "12216d5c-e254-52c6-b344-47de4c6e1ae5": {
+    "ref": "C06",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "high",
+    "headline": "Large store footprint, centralised automation, no stated need",
+    "summary": "Meera spoke with Nikhil, who described a 120-plus-store business with a mixed card and cash-advance model. He said the essential processes were already automated and connected through the company's management system, and that the group would reach out if a need arose.",
+    "whyItMatters": "Scale alone was not a qualification signal. The prospect described central visibility and automation. This is a clear no for now, with useful coaching on when to stop pitching.",
+    "suggestedRoutes": ["no_opportunity", "sales_coaching"],
+    "routeReasons": {
+      "no_opportunity": "The prospect said the arrangements were already in place and would reach out if a need came up.",
+      "sales_coaching": "The rep kept pitching after repeated existing-capability statements."
+    },
+    "evidence": [
+      {
+        "quote": "We already have many of those things in place.",
+        "note": "Existing-capability objection."
+      },
+      {
+        "quote": "The essential processes are automated and connected through our business management system.",
+        "note": "Centralised, connected operating model."
+      },
+      {
+        "quote": "If a particular need comes up later, we will reach out.",
+        "note": "No active follow-up requested."
+      }
+    ],
+    "notEstablished": [
+      "The claim of full visibility is source-reported by the prospect, not verified.",
+      "No gap, budget, buying process or timing was established.",
+      "Do not treat store count as intent or pipeline value."
+    ],
+    "nextSteps": [
+      {
+        "action": "Close the active pursuit and keep a low-priority trigger note for a future change in providers or a specific gap.",
+        "owner": "Unassigned — owner not stated",
+        "ownerBasis": "No internal owner was named."
+      },
+      {
+        "action": "Coach the team to test centralised automation before presenting visibility features.",
+        "owner": "Meera (caller)",
+        "ownerBasis": "Caller identity is in the source record."
+      }
+    ],
+    "coaching": [
+      "Store count is context, not pain. Ask where visibility or payment execution actually fails.",
+      "When a prospect describes an integrated system, ask for the exception or the workaround before pitching a replacement."
+    ]
+  },
+  "428817fa-7e9e-5418-a7d4-bb396d28dfbf": {
+    "ref": "C07",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "medium",
+    "headline": "Advisory firm already refers account providers and wants a proposal",
+    "summary": "Dev spoke with Aditya at Willowbank Advisory about referring clients for virtual business accounts after incorporation. Aditya confirmed the firm already refers clients to account providers, asked for a proposal by chat, and agreed to a Monday call.",
+    "whyItMatters": "This is a partner-development conversation, not a direct customer deal. The firm has an existing referral behaviour and a commercial interest to evaluate. The proposal and Monday call are concrete next steps.",
+    "suggestedRoutes": ["partner"],
+    "routeReasons": {
+      "partner": "The value is a referral relationship with an advisory firm whose clients need business accounts."
+    },
+    "evidence": [
+      {
+        "quote": "Do you currently refer clients to providers for that part of the process?",
+        "note": "The rep tested the referral behaviour."
+      },
+      {
+        "quote": "Yes, that is something we normally do.",
+        "note": "Existing referral behaviour confirmed."
+      },
+      {
+        "quote": "Once you've received them, could I call on Monday to see whether you'd like to discuss it further?",
+        "note": "A specific follow-up call was agreed."
+      }
+    ],
+    "notEstablished": [
+      "No referral volume, commission expectation or client-fit criteria were established.",
+      "The firm's use of digital providers is confirmed only by the speaker's statement.",
+      "No partner agreement exists yet."
+    ],
+    "nextSteps": [
+      {
+        "action": "Send the proposal by chat app, including client eligibility, the referral process and commercial terms; call Monday.",
+        "owner": "Dev (caller)",
+        "ownerBasis": "Caller identity and Monday commitment are in the record."
+      }
+    ],
+    "coaching": [
+      "Clarify the advisory firm's current referral economics and client volume before drafting commercial terms."
+    ]
+  },
+  "129497b2-8e1d-5e01-919c-e8a852b5ff68": {
+    "ref": "C08",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "medium",
+    "headline": "Proposal routed to an operations colleague after a vague prior evaluation",
+    "summary": "Meera called Raghav and described SpendNest's expense and payables fit. Raghav asked for a proposal to be sent to a colleague who handles people operations and frontline locations. He mentioned there had been some prior discussions but did not know the details.",
+    "whyItMatters": "There is a plausible active evaluation, but the actual stakeholder and requirements sit with someone else. The next step is a referred proposal, not a direct qualification.",
+    "suggestedRoutes": ["deal_follow_up"],
+    "routeReasons": {
+      "deal_follow_up": "A named colleague and email address were supplied for a proposal, creating a concrete follow-up path."
+    },
+    "evidence": [
+      {
+        "quote": "I think we may have been looking at a solution, but I don't know the details. There have been some discussions.",
+        "note": "Prior activity is hinted at but not confirmed."
+      },
+      {
+        "quote": "The colleague handling our people operations also deals with frontline processes and the locations.",
+        "note": "The real stakeholder is someone else."
+      },
+      {
+        "quote": "contact08@example.com",
+        "note": "Explicit routing address supplied and read back."
+      }
+    ],
+    "notEstablished": [
+      "The prior solution or discussions are not in the supplied data.",
+      "No requirements, budget, timing or decision process were discussed.",
+      "The colleague's role and authority are not verified beyond the speaker's description."
+    ],
+    "nextSteps": [
+      {
+        "action": "Send the proposal to the supplied address, mention Raghav's referral, and ask the colleague for the actual requirements before scheduling.",
+        "owner": "Meera (caller)",
+        "ownerBasis": "Caller identity is in the source record."
+      }
+    ],
+    "coaching": [
+      "When a referral is offered, ask what the colleague is measured on and what triggered the prior evaluation."
+    ]
+  },
+  "4a1de681-f884-55e8-b1ad-de22d17cd959": {
+    "ref": "C09",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "medium",
+    "headline": "Internal build blocks the pitch; a conditional referral is offered without permission to use a name",
+    "summary": "Meera called Vedant at a 130-location retailer. Vedant said the company built its own software and was not looking outside. When asked whether the internal system also executes payments, he did not know and pointed to business head Rishabh on a professional network, but explicitly asked that his name not be used.",
+    "whyItMatters": "The conversation surfaces a possible route to the real decision maker, but with a boundary the team must respect. The internal system's payment capability is unresolved, so the qualification question is still open.",
+    "suggestedRoutes": ["deal_follow_up", "sales_coaching"],
+    "routeReasons": {
+      "deal_follow_up": "A specific business head was identified as the person who could explain requirements and gaps.",
+      "sales_coaching": "The rep found the right qualification question and then respected a referral boundary; this is worth reinforcing."
+    },
+    "evidence": [
+      {
+        "quote": "We have developed our own software internally, so at present we aren't looking for anything outside the organisation.",
+        "note": "Strong build-versus-buy objection."
+      },
+      {
+        "quote": "does your internal system only record expenses and approvals, or does it also make the payments?",
+        "note": "Good gap question; the answer was unknown."
+      },
+      {
+        "quote": "No, please don't use my name.",
+        "note": "Explicit referral boundary that must be honoured."
+      }
+    ],
+    "notEstablished": [
+      "Whether the internal system executes payments is unknown.",
+      "Rishabh's requirements and authority are not verified.",
+      "No permission to reference Vedant was given."
+    ],
+    "nextSteps": [
+      {
+        "action": "Decide whether to approach the business head through a public route without using Vedant's name; do not imply a warm referral.",
+        "owner": "Meera (caller)",
+        "ownerBasis": "Caller identity is in the source record."
+      }
+    ],
+    "coaching": [
+      "Honour referral boundaries precisely; a name mentioned in conversation is not permission to use it.",
+      "A build-versus-buy conversation turns on the gap between recording and payment execution, not on feature breadth."
+    ]
+  },
+  "b747f592-810e-583c-9b81-8db5ab035806": {
+    "ref": "C10",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "high",
+    "headline": "Stale contact, new sector, one-way brief only",
+    "summary": "Meera called Aniket about Meadowbrick, but he no longer worked there and had moved to manufacturing. He asked for a brief on the messaging app and explicitly declined a follow-up call, saying he would contact SpendNest if there was anything to discuss.",
+    "whyItMatters": "The contact record is stale. The rep adapted quickly, but there is no active opportunity and no permission for a follow-up call. This belongs in contact-data cleanup, not in an active deal queue.",
+    "suggestedRoutes": ["no_opportunity", "sales_coaching"],
+    "routeReasons": {
+      "no_opportunity": "The contact left the named company, declined a follow-up call and gave no live requirement.",
+      "sales_coaching": "Contact-data staleness and respecting a one-way follow-up request are the useful behaviours here."
+    },
+    "evidence": [
+      {
+        "quote": "I don't work there anymore.",
+        "note": "Contact data is stale."
+      },
+      {
+        "quote": "It is different. Manufacturing.",
+        "note": "The prospect's sector changed."
+      },
+      {
+        "quote": "No. I said I will contact you if there is anything to discuss.",
+        "note": "Follow-up call explicitly declined."
+      }
+    ],
+    "notEstablished": [
+      "No requirement at the new employer was established.",
+      "The offer to send a brief is not consent to a sales call.",
+      "Do not keep the contact attached to Meadowbrick or count it as an active account."
+    ],
+    "nextSteps": [
+      {
+        "action": "Correct the contact record, remove the Meadowbrick association and set a no-call preference; send only the requested brief if appropriate.",
+        "owner": "Meera (caller)",
+        "ownerBasis": "Caller identity is in the source record."
+      }
+    ],
+    "coaching": [
+      "Verify role and company at the top of a cold call before pitching an account name.",
+      "A request for written information with an explicit no-call preference is not a follow-up commitment."
+    ]
+  },
+  "cb5cecac-e68d-52b7-b10b-b0c748efc467": {
+    "ref": "M01",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "high",
+    "headline": "Partner economics understood; self-service referral path is the remaining gap",
+    "summary": "Harborpath Advisory explored referring clients for SpendNest business accounts. The meeting covered partner commission, customer pricing and onboarding documents. The partner was positive but said a manual email introduction for every referral would not scale. A unique referral link, tracking sheet and written documents were agreed.",
+    "whyItMatters": "This is the clearest partner next step of the day. The partner has an existing recommendation habit and a commercial motive, but the operational referral path and written terms are not finished. Do not describe it as a signed partnership.",
+    "suggestedRoutes": ["partner"],
+    "routeReasons": {
+      "partner": "The conversation is about a referral/channel arrangement, not a direct customer deal."
+    },
+    "evidence": [
+      {
+        "turn": 6,
+        "quote": "Yes, I use some myself and recommend them. Usually I receive nothing for the recommendation. If there is a sensible commercial arrangement here, that is interesting to me.",
+        "note": "Existing referral behaviour and commercial motivation."
+      },
+      {
+        "turn": 9,
+        "quote": "The activation payment is USD 260 when a referred company gets its account approved by our compliance partners.",
+        "note": "A specific commission term was stated in the meeting."
+      },
+      {
+        "turn": 13,
+        "quote": "For customers, approval needs incorporation and tax documents, identity documents, an ownership chart and a website.",
+        "note": "Compliance requirements were explained; the partner flagged newly formed businesses as a risk."
+      },
+      {
+        "turn": 20,
+        "quote": "It cannot depend on me manually writing every email. This needs to scale when people discover the offer through us.",
+        "note": "The key partner objection."
+      },
+      {
+        "turn": 23,
+        "quote": "receiving funds here means bank transfers, not directly taking card payments from customers.",
+        "note": "A product limitation the partner must disclose correctly."
+      },
+      {
+        "turn": 25,
+        "quote": "I will send the documents and the information discussed here.",
+        "note": "Concrete follow-up commitment from the SpendNest speaker."
+      }
+    ],
+    "notEstablished": [
+      "No partner agreement or commission payment has been completed.",
+      "The commission figures are statements in the meeting, not a verified contract.",
+      "No referred customer or pipeline value exists yet."
+    ],
+    "nextSteps": [
+      {
+        "action": "Send the partner deck, customer requirements, unique referral link, tracking sheet and contact route in writing.",
+        "owner": "Team member A (speaker; organiser team06 not verified as the same person)",
+        "ownerBasis": "“I will send the documents…” in turn 25."
+      },
+      {
+        "action": "Confirm how the unique link attributes referrals and how the shared tracking sheet stays current.",
+        "owner": "SpendNest partner operations — owner not named",
+        "ownerBasis": "No named internal operations owner."
+      },
+      {
+        "action": "Connect the partner with marketing about the podcast and partner-page idea if it is still wanted.",
+        "owner": "Unassigned — owner not stated",
+        "ownerBasis": "Marketing was mentioned but not assigned."
+      }
+    ],
+    "coaching": [
+      "Bring the self-service referral path to the first partner meeting; the manual-email objection was predictable.",
+      "State product limitations alongside commission terms so the partner does not oversell card acceptance or funding."
+    ]
+  },
+  "1a21c409-c050-5787-90af-2667e057e1b6": {
+    "ref": "M02",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "high",
+    "headline": "SpendNest is the buyer: e-invoicing evaluation is strategic, not a sales opportunity",
+    "summary": "SpendNest met LedgerBridge to evaluate compliant electronic invoicing coverage for Singapore, Australia and India. The discussion covered product fit, a fourth-quarter ambition that is not fixed, volume estimation, two pricing models and a one-time setup charge. LedgerBridge will send a volume template; SpendNest needs to complete it and brief management.",
+    "whyItMatters": "This is a vendor/procurement evaluation in which SpendNest is buying. Routing it as a deal would reverse the relationship. The key uncertainty is that issued-invoice volumes are estimates for a product still being built.",
+    "suggestedRoutes": ["vendor_procurement", "internal_ops"],
+    "routeReasons": {
+      "vendor_procurement": "SpendNest is evaluating an external supplier for e-invoicing capability.",
+      "internal_ops": "The evaluation needs internal product, finance and management decisions before a commercial call."
+    },
+    "evidence": [
+      {
+        "turn": 11,
+        "quote": "Has management decided to invest in this, or are you still deciding whether the project should exist at all?",
+        "note": "The supplier tested whether the project is funded."
+      },
+      {
+        "turn": 13,
+        "quote": "We are aiming for the fourth quarter. We would start with Singapore and Australia, then India.",
+        "note": "Stated market sequence and timing ambition."
+      },
+      {
+        "turn": 15,
+        "quote": "There are several projects competing for that quarter. Early next year is possible if the work moves.",
+        "note": "The quarter is not an immovable deadline."
+      },
+      {
+        "turn": 17,
+        "quote": "I will send a volume template: countries, small versus larger customers, invoices issued and invoices received.",
+        "note": "Concrete supplier next step."
+      },
+      {
+        "turn": 18,
+        "quote": "Issued volumes will be estimates because the receivables product is still being built.",
+        "note": "Critical uncertainty in the commercial model."
+      },
+      {
+        "turn": 31,
+        "quote": "The basic setup begins at EUR 2,600; a more supported implementation starts at EUR 6,500",
+        "note": "One-time setup pricing was stated."
+      },
+      {
+        "turn": 34,
+        "quote": "Written pricing helps us follow that process internally. I understand your concern, but we still need to take the numbers back.",
+        "note": "SpendNest's evaluation process requires written pricing."
+      }
+    ],
+    "notEstablished": [
+      "No vendor selection, signed contract or approved budget.",
+      "Issued-invoice volumes do not exist yet because the receivables product is being built.",
+      "The fourth-quarter date is an ambition, not a committed launch date."
+    ],
+    "nextSteps": [
+      {
+        "action": "Complete the LedgerBridge volume template, clearly separating received volumes from estimated issued volumes.",
+        "owner": "SpendNest strategy/product team — individual not named",
+        "ownerBasis": "The need to complete the template was discussed, but no individual owner was named."
+      },
+      {
+        "action": "Brief management on both pricing models and decide who attends the next commercial call.",
+        "owner": "Team member A and Team member B (speakers; organiser team07 not verified)",
+        "ownerBasis": "The speakers described the internal evaluation process."
+      },
+      {
+        "action": "Send the template and confirm the follow-up explanation call.",
+        "owner": "LedgerBridge supplier (unnamed speaker)",
+        "ownerBasis": "The supplier committed to send the template in turn 36."
+      }
+    ],
+    "coaching": [
+      "In a procurement conversation, keep the buying and selling sides explicit in the notes.",
+      "Separate current AP invoice volumes from forecast AR volumes so a supplier cannot price them as equally certain."
+    ]
+  },
+  "398672e7-62dd-5afd-846d-0237d49792fb": {
+    "ref": "M03",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "high",
+    "headline": "Prepaid-versus-credit surprise and an in-meeting price jump put the proposal at risk",
+    "summary": "Asterloom Systems reviewed domestic cards and expense workflows with SpendNest. The customer expected a corporate credit card and discovered the domestic option is prepaid. They also challenged a move from INR 26,000 to INR 39,000, which the rep clarified as INR 26,000 recurring plus INR 13,000 one-time integration. The proposal now goes to the CFO, with a small initial user group.",
+    "whyItMatters": "There is a plausible opportunity, but two expectations were corrected late: the funding model and the price composition. The next artefact must make both unambiguous or the CFO review will reopen the same objections.",
+    "suggestedRoutes": ["deal_follow_up", "sales_coaching"],
+    "routeReasons": {
+      "deal_follow_up": "A proposal and internal CFO review are the next steps for a live commercial evaluation.",
+      "sales_coaching": "The meeting exposed a pricing explanation gap and a credit-versus-prepaid expectation gap that should change how the offer is framed."
+    },
+    "evidence": [
+      {
+        "turn": 6,
+        "quote": "Wait, these are prepaid? I had thought about a corporate credit card.",
+        "note": "The customer's funding-model expectation was wrong."
+      },
+      {
+        "turn": 7,
+        "quote": "That is right for this option. The money is in the company wallet and the card transactions draw against it.",
+        "note": "The rep corrected the expectation clearly."
+      },
+      {
+        "turn": 23,
+        "quote": "But you previously told me INR 26,000. Why has that become INR 39,000?",
+        "note": "The price change created a trust issue in the meeting."
+      },
+      {
+        "turn": 24,
+        "quote": "INR 26,000 plus tax is the recurring annual subscription, and INR 13,000 is the one-time accounting integration setup.",
+        "note": "The composition was clarified."
+      },
+      {
+        "turn": 28,
+        "quote": "Our CFO approves the larger payments. We need to explain the proposal to them; that part is still ahead of us.",
+        "note": "The economic approver is the CFO."
+      },
+      {
+        "turn": 31,
+        "quote": "So reimbursement is an additional module? I want to confirm that ordinary review of a card transaction does not require us to buy reimbursement as well.",
+        "note": "Module boundaries need to be explicit in the proposal."
+      },
+      {
+        "turn": 34,
+        "quote": "We are a small growing company, roughly 65 employees.",
+        "note": "Size context, not a budget confirmation."
+      },
+      {
+        "turn": 36,
+        "quote": "Send the details first. We need time with the CFO and will tell you if another call is needed.",
+        "note": "No follow-up meeting was agreed."
+      }
+    ],
+    "notEstablished": [
+      "No CFO decision, signed contract or confirmed start date.",
+      "The INR 26–39 lakh monthly vendor-payment figure is an unverified estimate for a possible later module.",
+      "The domestic prepaid cards do not meet the customer's stated corporate-credit-card expectation."
+    ],
+    "nextSteps": [
+      {
+        "action": "Send a line-item proposal separating INR 26,000 recurring, INR 13,000 one-time integration, card review, bank transfer and optional reimbursement.",
+        "owner": "Team member A (speaker; organiser team08 not verified as the same person)",
+        "ownerBasis": "“I will send the cards proposal…” in turn 35."
+      },
+      {
+        "action": "State the prepaid funding model and the separate bank-issued credit-card eligibility path at the top of the proposal.",
+        "owner": "Team member A (speaker)",
+        "ownerBasis": "The rep owns the commercial explanation in the meeting."
+      },
+      {
+        "action": "Wait for the customer's internal CFO discussion before proposing another call.",
+        "owner": "Customer (CFO review) — internal owner not named",
+        "ownerBasis": "The customer said they need time with the CFO and will signal if another call is needed."
+      }
+    ],
+    "coaching": [
+      "Never introduce a total that mixes recurring and one-time charges without labelling both.",
+      "Surface credit-versus-prepaid in discovery; a late correction changes the whole evaluation.",
+      "Map module boundaries before sending a proposal so card review is not confused with reimbursement."
+    ]
+  },
+  "b0f79b3d-37ba-52f9-b2bc-58b159dd6d91": {
+    "ref": "M04",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "high",
+    "headline": "Migration blocked by credit expectation and unconfirmed bank-card integration",
+    "summary": "Cedarwave Distribution discussed migrating its existing card programme. The replacement remains prepaid, while the customer's main issue is moving to credit. SpendNest described a possible bank-issued corporate credit-card feed, but existing-card eligibility, available-limit visibility and accounting reconciliation were not confirmed. A separate department-user cleanup was also requested.",
+    "whyItMatters": "This is an existing-customer retention and support risk, not a clean expansion. The customer may keep credit cards at its bank and use SpendNest only for receipts and review. Promising credit, limit visibility or accounting sync before the programme team confirms would overstate the product.",
+    "suggestedRoutes": ["customer_support", "deal_follow_up"],
+    "routeReasons": {
+      "customer_support": "The migration and access issues affect an existing customer's card programme and require internal follow-up.",
+      "deal_follow_up": "There is a conditional commercial path through bank-issued credit cards, but it depends on eligibility and customer choice."
+    },
+    "evidence": [
+      {
+        "turn": 10,
+        "quote": "The replacement I described is still prepaid. I do not want to promise that this becomes a credit card in the near term.",
+        "note": "The rep avoided overpromising credit."
+      },
+      {
+        "turn": 11,
+        "quote": "moving from prepaid to credit is the main issue for us.",
+        "note": "The customer's primary decision criterion."
+      },
+      {
+        "turn": 19,
+        "quote": "It is not the same as our real-time prepaid feed.",
+        "note": "The bank-card feed would behave differently from prepaid."
+      },
+      {
+        "turn": 21,
+        "quote": "Many transaction fields can sync, but source-balance reconciliation is a question in this setup.",
+        "note": "Accounting reconciliation is unresolved."
+      },
+      {
+        "turn": 23,
+        "quote": "I will check whether your already-issued cards can join the transaction-feed programme.",
+        "note": "Existing-card eligibility is not confirmed."
+      },
+      {
+        "turn": 25,
+        "quote": "No, the proposed feed shows transaction details after settlement.",
+        "note": "The feed would not show available credit limit."
+      },
+      {
+        "turn": 27,
+        "quote": "The additional layer is collecting receipts and business reasons, reviewing exceptions, attaching project information and reconciling alongside prepaid spending.",
+        "note": "The remaining value proposition if the bank keeps credit control."
+      },
+      {
+        "turn": 30,
+        "quote": "There is also the earlier issue with moving users between departments.",
+        "note": "A separate operational cleanup request."
+      }
+    ],
+    "notEstablished": [
+      "Bank approval, existing-card eligibility and network consent are not confirmed.",
+      "Accounting reconciliation for bank-card transactions is not confirmed.",
+      "The customer has not decided on a mixed credit/prepaid model or completed migration."
+    ],
+    "nextSteps": [
+      {
+        "action": "Confirm existing-card eligibility, network approval and the exact accounting fields that can reconcile for bank-card transactions.",
+        "owner": "Team member A / card programme team — individual not named",
+        "ownerBasis": "The speaker committed to check with the programme team in turn 23."
+      },
+      {
+        "action": "Present the mixed model as conditional: bank credit cards for eligible users, SpendNest prepaid for others.",
+        "owner": "Team member A (speaker)",
+        "ownerBasis": "The speaker framed the mixed model in turns 12–16."
+      },
+      {
+        "action": "Arrange a guided department-user correction session after confirming which users and departments should move.",
+        "owner": "Team member A (speaker)",
+        "ownerBasis": "The speaker offered a guided session in turn 31."
+      }
+    ],
+    "coaching": [
+      "When a migration involves a product limitation, lead with the limitation and the customer's decision criteria.",
+      "Do not treat an existing customer's migration discussion as expansion until the replacement product actually meets the stated need.",
+      "Keep bank-card eligibility, limit visibility and accounting sync as separate confirmations; one does not imply the others."
+    ]
+  },
+  "657b9e9d-9472-5b01-a127-a648ad7e8cf7": {
+    "ref": "M06",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "medium",
+    "headline": "Receivables discovery surfaces real manual work but volume remains a rough estimate",
+    "summary": "Mapletrail Services described a decentralised branch finance role and a central shared-services team. The customer handles around eight clients, estimates 260–390 invoices a month, and described manual contract checks, collections follow-up and cash-application exceptions. SpendNest positioned receivables automation and also sent expense and payables material.",
+    "whyItMatters": "There is a credible workflow problem, but the numbers are explicitly rough and the central team already handles much of the work. Any business case must separate branch-level pain from central ownership and label volume estimates.",
+    "suggestedRoutes": ["deal_follow_up", "sales_coaching"],
+    "routeReasons": {
+      "deal_follow_up": "The customer asked for material and left the door open to staying in touch, but no meeting was booked.",
+      "sales_coaching": "The invoice-count discussion needed a correction and the security question arrived late; both are useful discovery lessons."
+    },
+    "evidence": [
+      {
+        "turn": 12,
+        "quote": "Initially I would estimate 260–390 invoices a month, with a large total value.",
+        "note": "Rough volume estimate."
+      },
+      {
+        "turn": 14,
+        "quote": "Several for each customer, each month. I was not saying that the entire company only sends a handful of invoices.",
+        "note": "The customer corrected the count interpretation."
+      },
+      {
+        "turn": 15,
+        "quote": "So perhaps nearer 390–520 a month overall?",
+        "note": "The rep checked the corrected range."
+      },
+      {
+        "turn": 16,
+        "quote": "Approximately. The value is the bigger point, and many are in foreign currency. These are rough numbers in this conversation, not a report I have open.",
+        "note": "Estimates are explicitly unverified."
+      },
+      {
+        "turn": 22,
+        "quote": "if an invoice is INR 1.3 lakh and the payment is INR 1.17 lakh, the difference could be withholding, bank fees or an unresolved dispute.",
+        "note": "A concrete cash-application exception."
+      },
+      {
+        "turn": 25,
+        "quote": "At present people still track contract terms and bank receipts manually.",
+        "note": "Current-state pain."
+      },
+      {
+        "turn": 31,
+        "quote": "Confidentiality is important. Payment information is sensitive. How is that protected, and is there a risk of somebody interfering with it?",
+        "note": "Security is a buying concern."
+      },
+      {
+        "turn": 33,
+        "quote": "Please send the information and we can stay in touch.",
+        "note": "A low-commitment follow-up."
+      }
+    ],
+    "notEstablished": [
+      "Invoice volume and value are rough conversational estimates, not a report.",
+      "The central team's ownership and willingness to change are not established.",
+      "No security review, pilot, budget or decision process was agreed."
+    ],
+    "nextSteps": [
+      {
+        "action": "Send the receivables and expense material as promised, including security information.",
+        "owner": "Team member A (speaker; organiser team10 not verified)",
+        "ownerBasis": "“Please send the information…” closes the meeting; the SpendNest speaker owns the follow-up."
+      },
+      {
+        "action": "If the customer responds, map the escalation path and separate branch pain from central shared-services ownership.",
+        "owner": "Unassigned — owner not stated",
+        "ownerBasis": "No internal owner or next meeting was named."
+      }
+    ],
+    "coaching": [
+      "Separate invoice count from invoice value and ask for the source of any estimate.",
+      "Bring security and data handling into discovery earlier for finance buyers.",
+      "Confirm who owns the process centrally before building a business case around a branch role."
+    ]
+  },
+  "4f304fff-fd40-5cfc-a366-0a134c445c2a": {
+    "ref": "M07",
+    "sourceRevision": 2,
+    "analysisVersion": "analysis-2026-08-22.2",
+    "confidence": "high",
+    "headline": "Four customer issues demonstrated; one workaround is not a fix",
+    "summary": "Willowfield Trust walked through four product issues: a saved event-payment description still displays the old wording, an attachment cannot be uploaded from the Recreate payment route, reimbursement payments are stuck showing Processing, and Mark as paid carries the previous payment's amount into the next item. The team found an invoice-inbox upload workaround, captured screenshots, and committed to report the issues and update the customer.",
+    "whyItMatters": "This transcript arrived only in revision 2, so the analysis is new and must be reviewed against the updated source. The issues affect existing customer operations and contain a dangerous ambiguity: a workaround exists for one issue, but the underlying defects remain. Do not close the record because a path works.",
+    "suggestedRoutes": ["customer_support", "internal_ops"],
+    "routeReasons": {
+      "customer_support": "An existing customer reported four concrete product and workflow problems that need status updates.",
+      "internal_ops": "The reproducible defects need to be reported to the product/engineering team and tracked to resolution."
+    },
+    "evidence": [
+      {
+        "turn": 3,
+        "quote": "The field still shows the earlier wording. So the change is not appearing after you save, is that right?",
+        "note": "Description refresh defect."
+      },
+      {
+        "turn": 8,
+        "quote": "When I go through this route, I cannot upload a document.",
+        "note": "Attachment upload defect on Recreate payment."
+      },
+      {
+        "turn": 13,
+        "quote": "While the team investigates the direct route, the workaround is to save the changes, return to the invoice inbox, open Review and upload the document there.",
+        "note": "Workaround path."
+      },
+      {
+        "turn": 15,
+        "quote": "The workaround does not mean the direct upload issue has been resolved.",
+        "note": "Critical distinction between workaround and fix."
+      },
+      {
+        "turn": 17,
+        "quote": "Those payments are already in Processing, which is why selection is disabled.",
+        "note": "Reimbursement selection issue explained."
+      },
+      {
+        "turn": 19,
+        "quote": "The payments appear to have been released but are stuck showing Processing.",
+        "note": "Status defect affecting multiple users."
+      },
+      {
+        "turn": 21,
+        "quote": "When I use Mark as paid, the first payment shows INR 18,200.",
+        "note": "Specific amount used to reproduce the carryover bug."
+      },
+      {
+        "turn": 22,
+        "quote": "The amount from the previous item appears in the next one.",
+        "note": "Mark-as-paid amount carryover."
+      },
+      {
+        "turn": 23,
+        "quote": "it is retaining the previous amount rather than fetching the next payment's value.",
+        "note": "The rep confirmed the reproduction steps."
+      },
+      {
+        "turn": 27,
+        "quote": "I will send the details to the team, get their confirmation and come back to you.",
+        "note": "Follow-up commitment."
+      }
+    ],
+    "notEstablished": [
+      "Root causes and fix dates are not established.",
+      "The transcript does not show that all affected users or all payments were tested.",
+      "The workaround is not evidence that the direct upload path is fixed.",
+      "The recording start means the transcript is a selected excerpt, not the whole meeting."
+    ],
+    "nextSteps": [
+      {
+        "action": "Send the four issues with reproduction steps and screenshots to the product/engineering team; track each separately.",
+        "owner": "Team member A (speaker; organiser team09 not verified)",
+        "ownerBasis": "“I will send the details to the team…” in turn 27."
+      },
+      {
+        "action": "Give the customer the promised update on the Processing payments within the stated hour or two, and update them on the other three issues.",
+        "owner": "Team member A (speaker)",
+        "ownerBasis": "The speaker committed to an update in turn 19 and a return in turn 27."
+      },
+      {
+        "action": "Keep the Recreate payment upload issue open even while the invoice-inbox workaround is in use.",
+        "owner": "Product/engineering team — individual not named",
+        "ownerBasis": "The speaker said they would raise the original behaviour with the team."
+      }
+    ],
+    "coaching": [
+      "Distinguish a workaround from a resolution in both the customer note and the internal ticket.",
+      "Capture exact amounts and click paths when a defect is reproducible; this transcript is a good example.",
+      "When new source text arrives, re-review the analysis and the route instead of assuming the earlier state is still valid."
+    ]
+  },
+  "4b5b9192-f3fc-505a-8e77-4d2ffaa54594": {
+    "ref": "M09",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "high",
+    "headline": "Expired invitation blocks access; shared-mailbox permissions remain unresolved",
+    "summary": "A customer tried to set up access to Brookmint Holdings. The invitation did not work, and a fresh reset email also produced an expired token. The customer also challenged a proposed shared-mailbox administrator route because the accounts-payable officer can read that mailbox. SpendNest agreed to investigate the token and suggested separate identities or narrower permissions. A receipt/sync workflow question for Northkite Equipment was also covered.",
+    "whyItMatters": "This is an onboarding and access-support issue with a security dimension. The login is still not working, and the permission workaround would create an access risk the customer explicitly rejected. The next update is time-bound to today or Monday.",
+    "suggestedRoutes": ["customer_support", "onboarding"],
+    "routeReasons": {
+      "customer_support": "An access defect and an accounting workflow issue need investigation.",
+      "onboarding": "The customer needs a working account setup and a clearer permission model before broader use."
+    },
+    "evidence": [
+      {
+        "turn": 1,
+        "quote": "The invitation for Brookmint Holdings did not work when I tried it.",
+        "note": "Initial access failure."
+      },
+      {
+        "turn": 11,
+        "quote": "the accounts-payable officer can read that shared mailbox. Would that give that person the same administrator rights as me?",
+        "note": "The customer identified the permission risk."
+      },
+      {
+        "turn": 17,
+        "quote": "I do not want this to depend on trusting someone not to use access that is available.",
+        "note": "The proposed shared-mailbox control was rejected."
+      },
+      {
+        "turn": 21,
+        "quote": "It says the token has expired. This is the fresh message we just received.",
+        "note": "The reset link also failed."
+      },
+      {
+        "turn": 22,
+        "quote": "I hope to update you today, or by Monday at the latest. We have not got the Brookmint Holdings login working yet.",
+        "note": "Access remains unresolved with a time-bound update."
+      },
+      {
+        "turn": 29,
+        "quote": "The transaction is approved now, but syncing is still a separate step.",
+        "note": "Accounting sync is separate from approval."
+      },
+      {
+        "turn": 31,
+        "quote": "I will check the expired-token problem for Brookmint Holdings with the team and aim to return with an update today, otherwise Monday.",
+        "note": "Explicit follow-up commitment."
+      }
+    ],
+    "notEstablished": [
+      "No root cause for the expired token is supplied.",
+      "No final permission design or IT decision is confirmed.",
+      "The Northkite accounting correction was completed by the customer, but that does not prove the broader sync workflow is resolved."
+    ],
+    "nextSteps": [
+      {
+        "action": "Investigate the expired-token flow for Brookmint Holdings and update the customer today or Monday.",
+        "owner": "Team member A (speaker; organiser team11 not verified)",
+        "ownerBasis": "Turn 31 commitment."
+      },
+      {
+        "action": "Recommend separate personal work identities for the two companies or a narrower shared-account role; do not rely on a usage instruction.",
+        "owner": "Team member A (speaker)",
+        "ownerBasis": "The speaker identified the alternatives in turns 18–19."
+      },
+      {
+        "action": "Offer a refresher and send specific workflow guidance for receipt attachment and the separate sync step.",
+        "owner": "Team member A (speaker)",
+        "ownerBasis": "The speaker offered a refresher in turn 25."
+      }
+    ],
+    "coaching": [
+      "A shared mailbox is not a permission control when the same person can read it; separate identities or scoped roles are the safe default.",
+      "When a fresh token fails, capture the exact flow and update time before asking the customer to try again."
+    ]
+  },
+  "337f297d-9385-5b82-9e54-5019c1ed912c": {
+    "ref": "M10",
+    "sourceRevision": 1,
+    "analysisVersion": "analysis-2026-08-22.1",
+    "confidence": "high",
+    "headline": "Internal billing training exposes exception handling that depends on manual judgment",
+    "summary": "An internal billing walkthrough covered subscription and usage invoicing, due-date exceptions, zero-value invoices, failed wallet deductions and the dunning sequence. Operations creates manual invoices and must adjust the next billing date after a frozen account is cleared. A request for back-office access was deferred to the next training session.",
+    "whyItMatters": "This is internal enablement, not a customer conversation. It shows that billing exceptions depend on operations knowing when to void, reissue, clear and reset dates. The process risk is human inconsistency, especially when the displayed due date differs from the allowed collection period.",
+    "suggestedRoutes": ["internal_ops"],
+    "routeReasons": {
+      "internal_ops": "The record is an internal training session about billing operations and exception handling."
+    },
+    "evidence": [
+      {
+        "turn": 7,
+        "quote": "The nominal due period is seven days, but we sometimes give the customer until the end of the month.",
+        "note": "Displayed due date differs from collection practice."
+      },
+      {
+        "turn": 8,
+        "quote": "The displayed due date and the allowed collection period are not always the same thing.",
+        "note": "The core exception to document."
+      },
+      {
+        "turn": 13,
+        "quote": "If a periodic invoice has no subscription charge due and no extra usage component, its value can be zero. That is not automatically a missing payment.",
+        "note": "Zero-value invoices are not collection failures."
+      },
+      {
+        "turn": 15,
+        "quote": "Suppose the invoice is INR 6,240 but the wallet contains INR 6,110. The deduction fails and a notification goes out.",
+        "note": "Concrete dunning example."
+      },
+      {
+        "turn": 17,
+        "quote": "If it still fails, payments and cards can be blocked, and the billing date stays stuck.",
+        "note": "Frozen-account state."
+      },
+      {
+        "turn": 18,
+        "quote": "Operations also needs to adjust the next billing date manually.",
+        "note": "Manual recovery step."
+      },
+      {
+        "turn": 20,
+        "quote": "I will request the back-office access separately for the next training session.",
+        "note": "Training follow-up."
+      }
+    ],
+    "notEstablished": [
+      "Customer impact and frequency of the billing exceptions are not established.",
+      "The dunning schedule is training guidance, not a verified production policy.",
+      "No named operations owner is supplied for the manual date adjustment."
+    ],
+    "nextSteps": [
+      {
+        "action": "Request back-office access for the next training session and document the billing exception checklist.",
+        "owner": "Team member A (trainer; organiser team12 not verified as the same person)",
+        "ownerBasis": "Turn 20 commitment."
+      },
+      {
+        "action": "Make the difference between due date, allowed collection period and next billing date explicit in the operations runbook.",
+        "owner": "Unassigned — owner not stated",
+        "ownerBasis": "No operations owner was named."
+      }
+    ],
+    "coaching": [
+      "Do not infer payment failure from invoice month or a zero-value invoice; check the exception rules.",
+      "After clearing a frozen account, resetting the next billing date is part of the recovery, not a separate optional step."
+    ]
+  }
+}
