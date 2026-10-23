@@ -7,12 +7,13 @@ export default defineConfig({
     port: 5173,
     host: "0.0.0.0",
     open: false,
+    allowedHosts: true,
   },
   preview: {
-    // Render injects $PORT at runtime; fall back to 4173 locally
+    // Render injects $PORT; falls back to 4173 locally
     port: parseInt(process.env.PORT) || 4173,
     host: "0.0.0.0",
-    // Allow all hosts — required for Render's *.onrender.com domain
-    allowedHosts: "all",
+    // true = allow any hostname (required for *.onrender.com)
+    allowedHosts: true,
   },
 });
